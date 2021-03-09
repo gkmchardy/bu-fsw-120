@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Manger Man",
+        "catchPhrase": "Je sois Manger man, there is nothing I cannot eat",
+        "imageName": "images/1.PNG",
+        "bgcolor": "blue",
+        "color": "red"
+    },
+    {
+        "name": "Señora Dormilón",
+        "catchPhrase": "Just five more minutes, please",
+        "imageName": "images/2.PNG",
+        "bgcolor": "red",
+        "color": "white"
+    },
+    {
+        "name": "Zögermann",
+        "catchPhrase": "Not today, mein Freund, TOMORROW",
+        "imageName": "images/3.PNG",
+        "bgcolor": "black",
+        "color": "yellow"
+    },
+    {
+        "name": "Pigra Girl",
+        "catchPhrase": "Mamma mia, that's-a too much work",
+        "imageName": "images/4.PNG",
+        "bgcolor": "green",
+        "color": "white"
+    }
+]
