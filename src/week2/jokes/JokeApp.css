@@ -1,0 +1,12 @@
+.JokeDiv {
+  align-items: center;
+  text-align: center;
+  margin: 1%;
+  padding: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.JokeCard {
+  padding: 10px;
+  border-radius: 10px;
+}

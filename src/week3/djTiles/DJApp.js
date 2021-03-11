@@ -1,4 +1,5 @@
 import React from 'react'
+import './DJApp.css'
 
 class DJApp extends React.Component {
   constructor() {

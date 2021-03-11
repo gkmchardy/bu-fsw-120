@@ -1,0 +1,44 @@
+.tileWrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 300px 300px;
+  grid-gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.tile {
+  background: blue;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  line-height: 200px;
+  vertical-align: middle;
+  font-size: large;
+}
+
+.buttonWrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 148px 148px 148px 148px;
+  grid-gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.lilButton {
+  background: gray;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+.bigButton {
+  background: gray;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  grid-column: span 2;
+}

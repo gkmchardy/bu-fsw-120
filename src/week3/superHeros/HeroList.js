@@ -11,7 +11,7 @@ function HeroList() {
         color={data.color}
     />)
     return (
-        <div>
+        <div className="HeroDiv">
             {heroComponents}
         </div>
     )

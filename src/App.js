@@ -11,6 +11,7 @@ import DiceApp from './week3/dice/DiceApp'
 import DJApp from './week3/djTiles/DJApp'
 import NameApp from './week4/nameEntry/NameApp'
 import BadgeApp from './week4/nameBadges/BadgeApp'
+import Footer from './Footer'
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
@@ -32,6 +33,7 @@ function App() {
           <Route exact path='/BadgeApp' component={BadgeApp} />
         </Switch>
       </Router>
+      <Footer />
     </div>
   )
 }

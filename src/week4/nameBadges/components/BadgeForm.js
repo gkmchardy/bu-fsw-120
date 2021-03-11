@@ -54,13 +54,11 @@ class BadgeForm extends React.Component {
   render() {
     return (
         <div>  
-            <br /><br />
+            <br />
             <form onSubmit={this.handleSubmit}>
                 <div className="badgeInputWrapper">
-                    <div className="badgeHeader">
-                        <p>Please Fill Out Your Information</p>
-                    </div>
-                    <div className="badgeInput">
+                    <div className="badgeHeader">Please Fill Out Your Information</div>
+                    <div className="badgeCell">
                         <input 
                             type="text" 
                             name="firstName" 
@@ -69,10 +67,9 @@ class BadgeForm extends React.Component {
                             value={this.state.firstName} 
                             required={true}
                             minLength="3"
-                            style={{width:"250px"}}
                         />
                     </div>
-                    <div className="badgeInput">
+                    <div className="badgeCell">
                         <input 
                             type="text" 
                             name="lastName"  
@@ -81,10 +78,9 @@ class BadgeForm extends React.Component {
                             value={this.state.lastName} 
                             required={true}
                             minLength="3"
-                            style={{width:"250px"}}
                         />
                     </div>
-                    <div className="badgeInput">
+                    <div className="badgeCell">
                         <input 
                             type="email" 
                             name="email"
@@ -92,10 +88,9 @@ class BadgeForm extends React.Component {
                             onChange={this.handleChange} 
                             value={this.state.email} 
                             required={true}
-                            style={{width:"250px"}}
                         />
                     </div>
-                    <div className="badgeInput">
+                    <div className="badgeCell">
                         <input 
                             type="text" 
                             name="birthPlace"
@@ -104,10 +99,9 @@ class BadgeForm extends React.Component {
                             value={this.state.birthPlace} 
                             required={true}
                             minLength="3"
-                            style={{width:"250px"}}
                         />
                     </div>
-                    <div className="badgeInput">
+                    <div className="badgeCell">
                         <input 
                             type="text" 
                             name="phoneNbr"
@@ -116,11 +110,10 @@ class BadgeForm extends React.Component {
                             value={this.state.phoneNbr} 
                             required={true}
                             minLength="10"
-                            style={{width:"250px"}}
                             pattern="[0-9]*"
                         />
                     </div>
-                    <div className="badgeInput">
+                    <div className="badgeCell">
                             <input 
                                 type="text" 
                                 name="faveFood"
@@ -129,7 +122,6 @@ class BadgeForm extends React.Component {
                                 value={this.state.faveFood} 
                                 required={true}
                                 minLength="3"
-                                style={{width:"250px"}}
                             />
                     </div>
                     <div className="badgeSpan">
@@ -140,11 +132,10 @@ class BadgeForm extends React.Component {
                                 value={this.state.about}
                                 required={true}
                                 minLength="3"
-                                style={{width:"100%"}}
                             />
                     </div>
-                    <div className="badgeSpan" style={{textAlign:"right"}}>
-                            <button>Submit</button>
+                    <div className="badgeSpan" style={{textAlign:"right", paddingBottom:"10px"}}>
+                            <button className="badgeButton">Submit</button>
                     </div>
                 </div>
             </form>

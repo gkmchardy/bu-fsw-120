@@ -1,12 +1,13 @@
 import React from 'react'
+import Header from './Components/Header.js'
 import Dice from './Dice.js'
+import './DiceApp.css'
 
 class DiceApp extends React.Component {
   render() {
     return (
-      <div className="mainDiv">
-        <br /><br />
-        <p class="pageTitle">React Yahtzee</p>
+      <div>
+        <Header />
         <Dice />
       </div>
     )

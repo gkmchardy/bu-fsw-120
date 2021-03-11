@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Components/Header.js'
 import HeroList from './HeroList.js'
-import Footer from './Components/Footer.js'
+import './HeroApp.css'
 
 function HeroApp() {
 
@@ -9,7 +9,6 @@ function HeroApp() {
     <div>
       <Header />
       <HeroList />
-      <Footer />
     </div>
   )
 }

@@ -1,0 +1,29 @@
+.HeroHeader {
+  background-color: gray;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 5px;
+}
+.HeroImg {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border: 2px solid gray;
+  background-color: white;
+}
+.HeroBox {
+  background-color: white;
+  justify-content: center;
+  padding: 5px;
+}
+.HeroDiv {
+  align-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 18px;
+  color: black;
+  margin: 1%;
+  padding: 1%;
+}

@@ -1,6 +1,7 @@
 import React from "react"
 import SpotCard from "./SpotsCard.js"
 import SpotsData from "./SpotsData.js"
+import './SpotsApp.css'
 
 function SpotsApp() {
     const spotComponents = SpotsData.map(spot => <SpotCard 
@@ -13,7 +14,7 @@ function SpotsApp() {
         />)
     
     return (
-        <div>
+        <div className="SpotsDiv">
             {spotComponents}            
         </div>
     )

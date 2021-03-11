@@ -1,14 +1,13 @@
 import React from "react"
-import Navbar from "./Navbar.js"
+import Header from "./Components/Header.js"
 import BlogList from "./BlogList.js"
-import Footer from "./Footer.js"
+import './BlogApp.css'
 
 function BlogApp() {
     return (
         <div>
-            <Navbar />
+            <Header />
             <BlogList />
-            <Footer />
         </div>
     )
 }

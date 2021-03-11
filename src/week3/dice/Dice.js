@@ -29,12 +29,14 @@ class Dice extends React.Component {
 
     render() {
         return (
-            <div>
-                <Die pips = {this.state.die1} handleClick={this.handleClick} />
-                <Die pips = {this.state.die2} handleClick={this.handleClick} />
-                <Die pips = {this.state.die3} handleClick={this.handleClick} />
-                <Die pips = {this.state.die4} handleClick={this.handleClick} />
-                <Die pips = {this.state.die5} handleClick={this.handleClick} />
+            <div className="DiceGame">
+                <br />
+                <Die pips = {this.state.die1} />
+                <Die pips = {this.state.die2} />
+                <Die pips = {this.state.die3} />
+                <Die pips = {this.state.die4} />
+                <Die pips = {this.state.die5} />
+                <div><button onClick={this.handleClick} className="DiceButton">Roll Dice</button></div>
             </div>
         )
     }

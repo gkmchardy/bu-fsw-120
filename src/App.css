@@ -10,13 +10,7 @@ p {
   color: black;
   font-size: large;
 }
-.checkboxes {
-  display: grid;
-  grid-template-columns: 190px;
-  color: black;
-  font-size: large;
-  text-align: left;
-}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -32,110 +26,17 @@ nav {
   width: 90%;
   list-style: none;
 }
-
 button {
   color: white;
   border-style: none;
   background-color: gray;
-}
-.tileWrapper {
-  width: 90%;
-  margin: 0 auto;
-  display: grid;
-  grid-template-rows: 200px 200px;
-  grid-template-columns: 300px 300px;
-  grid-gap: 5px;
-  align-items: center;
-  justify-content: center;
-}
-.tile {
-  background: blue;
-  color: black;
-  padding: 10px;
-  text-align: center;
-  line-height: 200px;
-  vertical-align: middle;
-  font-size: large;
-}
-.badgeHeader {
-  color: black;
-  background-color: gray;
-  padding: 1px;
-  text-align: center;
-  vertical-align: middle;
-  font-size: larger;
-  grid-column: span 2;
-}
-.badgeInputWrapper {
-  width: 60%;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 5px;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #000;
-  border-radius: 10px;
-}
-.badgeInput {
-  color: black;
-  padding: 5px;
-  text-align: center;
-  vertical-align: middle;
-  font-size: large;
-}
-.badgeSpan {
-  color: black;
-  padding: 5px;
-  text-align: center;
-  vertical-align: middle;
-  font-size: large;
-  grid-column: span 2;
-}
-.buttonWrapper {
-  width: 90%;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 148px 148px 148px 148px;
-  grid-gap: 5px;
-  align-items: center;
-  justify-content: center;
-}
-.lilButton {
-  background: gray;
-  color: black;
-  padding: 5px;
-  text-align: center;
-  border-radius: 5px;
-}
-.bigButton {
-  background: gray;
-  color: black;
-  padding: 5px;
-  text-align: center;
-  border-radius: 5px;
-  grid-column: span 2;
-}
-
-#cell {
-  display: flex;
-  padding: 1em;
-  text-align: center;
-}
-
-#outer-div {
-  width: 100%;
-  text-align: center;
-}
-#inner-div {
-  display: inline-block;
-  margin: 0 auto;
-  padding: 3px;
 }
 Footer {
   position: absolute;
   left: 0;
   bottom: 0;
   right: 0;
+  text-align: center;
   background-color: gray;
+  padding: 10px;
 }
